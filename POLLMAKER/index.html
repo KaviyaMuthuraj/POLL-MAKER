@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Poll Maker</title>
+    
+    <style>
+      html,body{
+        margin:0%;
+        padding:0%;
+      }
+      body{
+        width:100%;
+        height:100%;
+        background-image:url("https://www.gtreview.com/wp-content/uploads/2017/07/Abstract-Internet-Data-Technology_News.jpg");
+        background-size:cover;
+        //position:relative;
+       }
+       .login{
+         width:670px;
+         height:450px;
+         line-height:20px;
+         border:0.3px solid rgba(246, 246, 246, 0.7);
+         border-radius:3%;
+         align-items:center;
+         position:absolute;
+         margin:12% 30%;
+         background-color:rgba(246, 246, 246, 0.7);
+       }
+       h1{
+         color:#1D0F53;
+         text-shadow:4px 4px 2px white;
+         font-size:45px;
+         padding:20px;
+         text-align:center;
+       }
+       label{
+         text-shadow:4px 4px 2px white;
+         color:#1D0F53;
+         font-size:28px;
+         margin-left:55px;
+         padding:20px;
+         text-align:center;
+       }
+       input[type=text]{
+          width: 70%;
+          padding: 12px;
+          border: none;
+          border-bottom: 2px solid #ccc;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-left:75px;
+          margin-bottom: 16px;
+          font-size: 15px;
+        }
+        input[type=text]:hover{
+          border-bottom: 2px solid #1D0F53;
+          color:  #1D0F53;
+        }
+        /* style the submit button */
+        input[type=submit] {
+          margin-left:60%;
+          margin-top:20px;
+          width: 20%;
+          font-size:22px;
+          padding: 10px;
+          background-color: #1D0F53;
+          color: white;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #f2f8f3;
+          color: #1D0F53;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <h1>POLL MAKER</h1><br><br><br>
+	<form method="POST" action="./login">
+       		 <label for="name">Enter your Name : </label><br><br>
+        	 <input type="text" name="name" autocomplete="off"/><br><br>
+        	 <input type="submit" value="Start"/>
+	</form>
+      </div>
+    </div>
+  </body>
+</html>
+
+

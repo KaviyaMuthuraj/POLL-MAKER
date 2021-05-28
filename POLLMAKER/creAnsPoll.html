@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Poll Maker</title>
+    
+    <style>
+      html,body{
+        margin:0%;
+        padding:0%;
+      }
+      body{
+        width:100%;
+        height:100%;
+        background-image:url("https://www.gtreview.com/wp-content/uploads/2017/07/Abstract-Internet-Data-Technology_News.jpg");
+        background-size:cover;
+        //position:relative;
+       }
+       .login{
+         width:750px;
+         height:400px;
+         line-height:20px;
+         border:0.3px solid rgba(246, 246, 246, 0.7);
+         border-radius:3%;
+         align-items:center;
+         position:absolute;
+         margin:11% 30%;
+         background-color:rgba(246, 246, 246, 0.7);
+       }
+       h1{
+         color:#1D0F53;
+         text-shadow:4px 4px 2px white;
+         font-size:45px;
+         padding:20px;
+         text-align:center;
+       }
+        /* style the submit button */
+        input[type=submit] {
+          margin-left:20%;
+          margin-top:20px;
+          width: 20%;
+          font-size:22px;
+          padding: 10px;
+          background-color: #1D0F53;
+          color: white;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #f2f8f3;
+          color: #1D0F53;
+        }
+        input[type=button] {
+          margin-left:20%;
+          margin-top:20px;
+          width: 20%;
+          font-size:22px;
+          padding: 10px;
+          background-color: #1D0F53;
+          color: white;
+          cursor: pointer;
+        }
+
+        input[type=button]:hover {
+          background-color: #f2f8f3;
+          color: #1D0F53;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <h1>POLL MAKER</h1><br><br><br>
+        <form method="POST" action="./total">
+          <a href="poll.html"><input type="button" value="Create Poll "/></a>
+          <input type="submit" value="Answer Poll "/>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+

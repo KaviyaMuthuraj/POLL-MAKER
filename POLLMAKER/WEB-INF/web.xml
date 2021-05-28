@@ -1,0 +1,52 @@
+<web-app>
+	<servlet>
+		<servlet-name>PollServlet</servlet-name>
+		<servlet-class>PollServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PollServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PollCreationServlet</servlet-name>
+		<servlet-class>PollCreationServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PollCreationServlet</servlet-name>
+		<url-pattern>/creation</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TotalPollList</servlet-name>
+		<servlet-class>TotalPollList</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TotalPollList</servlet-name>
+		<url-pattern>/total</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AnsPollServlet</servlet-name>
+		<servlet-class>AnsPollServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AnsPollServlet</servlet-name>
+		<url-pattern>/answer</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SelectedPollServlet</servlet-name>
+		<servlet-class>SelectedPollServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SelectedPollServlet</servlet-name>
+		<url-pattern>/vote</url-pattern>
+	</servlet-mapping>
+</web-app>
+
